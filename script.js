@@ -5,8 +5,8 @@ $('a[href^="#"]').on('click', function(event) {
 	var $target = $(target);
 
 	$('html, body').animate({
-		'scrollTop': $target.offset().top
-	}, 1000, 'swing');
+		scrollTop: $target.offset().top
+	}, 1000);
 });
 
 // Toggle mobile navigation menu
